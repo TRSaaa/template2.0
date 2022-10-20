@@ -25,40 +25,52 @@ body{
     cursor: pointer;
 }
 
-.home-btn{
-    height: 3rem;
-}
 nav{
     display: flex;
     text-transform: capitalize;
     width: 100vw;
-    height: 4rem;
+    height: 3rem;
     position: relative;
 }
-nav img{
-    width: 4rem;
-    
+
+.home-btn{
+    padding-right: 1rem;
+    height: auto;
+    width: 6rem;
 }
+.home-btn button{
+    background-color: transparent;
+    border: none;
+    padding: 0rem;
+}
+.home-btn img{
+    width: 6rem;
+    object-fit: cover;
+    height: 3rem;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 ul{
     display: flex;
-    height: 100%;
 }
 li{
-    
+    height: 1rem;
 }
 li a{
     color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
+
 .nav-right{
     display: flex;
+    position: absolute;
+    right: 2rem;
 }
+.nav-right img{}
 .align-content{
     display: flex;
 }
@@ -67,15 +79,9 @@ li a{
     border: none;
     cursor: pointer;
 }
-#greater{
-    width: 0.9rem;
-}
-.nav-right form{
-    
-}
-.nav-image-icon{
-    width: 1.3rem;
-}
+#greater{}
+.nav-right form{}
+.nav-image-icon{}
 
 main{
     
