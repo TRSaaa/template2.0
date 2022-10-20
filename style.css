@@ -1,0 +1,88 @@
+body{
+    background-color: #f3f6f4;
+    font-family: sans-serif;
+}
+.high-bar{
+    background-color: #ff7f50;
+    display: flex;
+    padding: 0.2rem 1rem;
+    justify-content: center;
+    position: relative;
+}
+.high-bar a{
+    color: #ffffff;
+    font-size: 0.8rem; 
+    text-decoration: none;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+.high-bar img{
+    width: 1.2rem;
+    height: 1rem;
+    padding: 0.2rem;
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.home-btn{
+    height: 3rem;
+}
+nav{
+    display: flex;
+    text-transform: capitalize;
+    width: 100vw;
+    height: 4rem;
+    position: relative;
+}
+nav img{
+    width: 4rem;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ul{
+    display: flex;
+    height: 100%;
+}
+li{
+    
+}
+li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-right{
+    display: flex;
+}
+.align-content{
+    display: flex;
+}
+.btn-icon{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#greater{
+    width: 0.9rem;
+}
+.nav-right form{
+    
+}
+.nav-image-icon{
+    width: 1.3rem;
+}
+
+main{
+    
+}
+.main-image{
+    
+}
+.main-image img{
+    width: 100vw;
+}
